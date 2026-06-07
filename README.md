@@ -60,8 +60,10 @@ radarBlips.appendChild(frag);
 
 ## Galerie
 <img width="499" height="789" alt="mobile png" src="https://github.com/user-attachments/assets/a8e993e6-aae0-42da-b383-d82dc1417651" />
+Mobile verze
 <img width="1897" height="904" alt="desktop png" src="https://github.com/user-attachments/assets/8e857644-cbb5-49ec-8d56-aea5438c8bff" />
+Desktop verze
 <img width="1566" height="894" alt="detail png" src="https://github.com/user-attachments/assets/5aac01bf-3ef6-4bc5-b4ef-12b202d2dc1d" />
-
+Detail verze
 
 
