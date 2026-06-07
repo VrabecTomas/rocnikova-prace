@@ -2,93 +2,123 @@
 
 ## Úvod
 
-Interaktivní 3D simulace sluneční soustavy vytvořená v HTML, CSS a JavaScriptu.
+**Cosmos Explorer 3D** je interaktivní webová aplikace zobrazující sluneční soustavu ve 3D prostředí. Uživatel může sledovat pohyb planet, měnit pohled kamery a získávat informace o jednotlivých planetách. Projekt byl vytvořen jako ročníková práce z webových technologií.
 
 **Živý web:** https://tomasvrabec.github.io/space_explorer/html/
 
+---
+
 ## Použité technologie
 
-* HTML5
-* CSS3
-* JavaScript (ES6+)
-* Web Audio API
+* HTML5 – struktura stránky
+* CSS3 – vzhled, animace a responzivita
+* JavaScript (ES6+) – logika aplikace
+* Web Audio API – generování zvuků
+* Google Fonts
 
 **IDE:** Visual Studio Code + Live Server
+
+---
 
 ## Adresářová struktura
 
 ```text
-html/
-css/
-js/
-images/
-README.md
+space_explorer/
+├── html/
+├── css/
+├── js/
+├── images/
+├── robots.txt
+├── sitemap.xml
+└── README.md
 ```
+
+---
 
 ## Technický rozbor
 
-### Performance
+### 1. Performance
 
-Optimalizace animací pomocí `requestAnimationFrame`.
+Pro plynulé animace je použit `requestAnimationFrame`, který optimalizuje vykreslování a snižuje zatížení prohlížeče.
 
 ```javascript
 requestAnimationFrame(updateScene);
 ```
 
-### SEO
+### 2. SEO
 
-Meta tagy a sitemap.xml.
+Projekt obsahuje meta tagy, sitemap.xml a strukturovaná data pro lepší indexaci vyhledávači.
 
 ```html
-<meta name="description" content="3D simulace sluneční soustavy">
+<meta name="description" content="Interaktivní 3D simulace sluneční soustavy">
 ```
 
-### Přístupnost
+### 3. Přístupnost
 
-ARIA atributy a ovládání klávesnicí.
+Použity jsou ARIA atributy a ovládání pomocí klávesnice, aby byl web přístupnější pro všechny uživatele.
 
 ```html
 <button aria-label="Země">Země</button>
 ```
 
-### Sociální sítě
+### 4. Sociální sítě
 
-Open Graph pro sdílení odkazů.
+Open Graph tagy zajišťují správné zobrazení náhledu při sdílení odkazu.
 
 ```html
 <meta property="og:title" content="Cosmos Explorer 3D">
 ```
 
-### UI/UX
+### 5. UI/UX
 
-Responzivní design a animace.
+Aplikace využívá responzivní design, moderní vzhled a plynulé animace pro lepší uživatelský zážitek.
 
 ```css
-@media(max-width:768px){ .hidden-mobile{display:none;} }
+@media (max-width: 768px) {
+  .hidden-mobile { display: none; }
+}
 ```
 
-### AI Integrace
+### 6. AI Integrace
 
-AI pomohla s kódem, laděním a dokumentací.
+AI byla využita při návrhu některých funkcí, opravě chyb a tvorbě dokumentace.
 
 ```javascript
-function startAmbience(){}
+function startAmbience() {
+   const osc = ctx.createOscillator();
+}
 ```
+
+---
 
 ## AI Deník
 
-* Návrh 3D kamery
-* Generování zvuků pomocí Web Audio API
-* Opravy chyb
-* Tvorba README
+* Návrh 3D kamery a ovládání.
+* Generování zvuků pomocí Web Audio API.
+* Hledání a oprava chyb v JavaScriptu.
+* Tvorba technické dokumentace a README.
 
-## Instalace
+---
 
-1. Otevři projekt ve VS Code.
-2. Spusť `index.html` přes Live Server.
+## Instalace a spuštění
+
+1. Stáhněte projekt.
+2. Otevřete složku ve Visual Studio Code.
+3. Nainstalujte rozšíření Live Server.
+4. Spusťte soubor `index.html` pomocí Live Serveru.
+
+---
 
 ## Galerie
 
-* Desktop screenshot
-* Mobilní screenshot
-* Detail planety
+### Desktop verze
+
+*Screenshot hlavního zobrazení aplikace.*
+
+### Detail planety
+
+*Screenshot informačního panelu planety.*
+
+### Mobilní verze
+
+*Screenshot responzivního zobrazení na telefonu.*
