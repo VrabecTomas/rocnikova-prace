@@ -1,4 +1,4 @@
-<img width="1897" height="904" alt="desktop png" src="https://github.com/user-attachments/assets/b2dbeb1f-73f6-4004-ba96-4e91e3a6cb2b" />#  Cosmos Explorer 3D
+# Cosmos Explorer 3D
 
 ## Úvod
 
