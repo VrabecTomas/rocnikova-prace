@@ -1,4 +1,4 @@
-#  Cosmos Explorer 3D
+# 🚀 Cosmos Explorer 3D
 
 ## Úvod
 
@@ -112,10 +112,13 @@ function startAmbience() {
 ## Galerie
 
 ### Desktop verze
-<img width="1897" height="904" alt="desktop png" src="https://github.com/user-attachments/assets/ec06fc6e-9878-44c2-975f-cc4555517381" />
 
-### Detail planety 
-<img width="1566" height="894" alt="detail png" src="https://github.com/user-attachments/assets/4c2fedab-f2d1-4f21-8258-4b254929dc81" />
+*Screenshot hlavního zobrazení aplikace.*
+
+### Detail planety
+
+*Screenshot informačního panelu planety.*
 
 ### Mobilní verze
-<img width="499" height="789" alt="mobile png" src="https://github.com/user-attachments/assets/3116118f-1991-4814-b5fc-fe4d6d46cbc8" />
+
+*Screenshot responzivního zobrazení na telefonu.*
