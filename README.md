@@ -4,7 +4,7 @@
 
 **Cosmos Explorer 3D** je interaktivní webová aplikace zobrazující sluneční soustavu ve 3D prostředí. Uživatel může sledovat pohyb planet, měnit pohled kamery a získávat informace o jednotlivých planetách. Projekt byl vytvořen jako ročníková práce z webových technologií.
 
-**Živý web:** https://tomasvrabec.github.io/space_explorer/html/
+**Živý web:** https://vrabectomas.github.io/rocnikova-prace/
 
 ---
 
