@@ -59,3 +59,4 @@ radarBlips.appendChild(frag);
 2. Spustit přes rozšíření **Live Server**.
 
 ## Galerie
+<img width="1897" height="904" alt="image" src="https://github.com/user-attachments/assets/404cce7e-5d3e-4b42-90fc-820bfcf39130" />
